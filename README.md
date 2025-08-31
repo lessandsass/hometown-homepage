@@ -10,4 +10,15 @@
 ### Requirments
 
 - Build it from scratch
+- Use the color palette
+
+
+### Stretch goals
+
+- Make it about your own home town, country or whatever place you like
+- Use a different color palette
+- Add a google font
+- Find a way to use :hover 
+- Add a whole new section
+
 

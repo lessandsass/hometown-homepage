@@ -13,6 +13,34 @@ body {
     text-align: center;
 }
 
+.hero {
+    background-image: url("images/batticaloa.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1, .hero h2 {
+    color: white;
+    padding: 5px 28px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    background-color: #1D3557;
+}
+
+.hero h2 {
+    width: 412px;
+    background-color: #457B9D;
+
+}
+
 img {
     width: 100px;
 }
