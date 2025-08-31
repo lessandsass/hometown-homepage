@@ -11,6 +11,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    font-family: "Comfortaa", sans-serif;
 }
 
 .hero {
@@ -33,14 +34,92 @@ body {
 
 .hero h1 {
     background-color: #1D3557;
+    font-size: 32px;
 }
 
 .hero h2 {
     width: 412px;
     background-color: #457B9D;
+    font-size: 18px;
 
 }
 
 img {
     width: 100px;
+}
+
+.activities {
+    width: 720px;
+    height: 378px;
+    background-color: #F1FAEE;
+    margin: 0  auto;
+}
+
+#activities-title {
+    font-size: 22px;
+}
+
+.places {
+    display: flex;
+    margin-top: 54px;
+    justify-content: space-around;
+}
+
+.places div {
+    width: 200px;
+}
+
+.places p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.places h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.places img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.places img:hover {
+    box-shadow: 0px 0px 10px #457B9D;
+}
+
+.activities h3 {
+    margin: 0;
+    padding-top: 39px;
+}
+
+.guide {
+    width: 720px;
+    height: 394px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.guide-container {
+    margin: 0 auto;
+    width: 400px;
+    height: 294px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A8DADC;
+    padding: 23px 13px;
+    border-radius: 10px;
+}
+
+.guide-details {
+    width: 160px;
+}
+
+.guide img {
+    width: 160px;
+    height: auto;
+    border-radius: 50%  ;
 }
