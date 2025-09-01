@@ -14,6 +14,10 @@ body {
     font-family: "Comfortaa", sans-serif;
 }
 
+img {
+    width: 100px;
+}
+
 .hero {
     background-image: url("images/batticaloa.jpg");
     background-size: cover;
@@ -26,26 +30,22 @@ body {
     justify-content: center;
 }
 
-.hero h1, .hero h2 {
+.hero-main-title, 
+.hero-sub-title {
     color: white;
     padding: 5px 28px;
     border-radius: 10px;
 }
 
-.hero h1 {
+.hero-main-title {
     background-color: #1D3557;
     font-size: 32px;
 }
 
-.hero h2 {
+.hero-sub-title {
     width: 412px;
     background-color: #457B9D;
     font-size: 18px;
-
-}
-
-img {
-    width: 100px;
 }
 
 .activities {
@@ -57,6 +57,8 @@ img {
 
 #activities-title {
     font-size: 22px;
+    margin: 0;
+    padding-top: 39px;
 }
 
 .places {
@@ -65,34 +67,29 @@ img {
     justify-content: space-around;
 }
 
-.places div {
+.places .place {
     width: 200px;
 }
 
-.places p {
+.description {
     font-size: 14px;
     font-weight: 400;
 }
 
-.places h3 {
+.activity-title {
     font-size: 16px;
     font-weight: 700;
 }
 
-.places img {
+.place-image {
     border-radius: 50%;
     width: 100px;
     height: 100px;
     background-size: cover;
 }
 
-.places img:hover {
+.place-image:hover {
     box-shadow: 0px 0px 10px #457B9D;
-}
-
-.activities h3 {
-    margin: 0;
-    padding-top: 39px;
 }
 
 .guide {
@@ -106,19 +103,20 @@ img {
     margin: 0 auto;
     width: 400px;
     height: 294px;
-    display: flex;
+    display: flex;  
     justify-content: space-around;
     align-items: center;
     background-color: #A8DADC;
     padding: 23px 13px;
     border-radius: 10px;
+    border-bottom: 5px solid #E63946;
 }
 
 .guide-details {
     width: 160px;
 }
 
-.guide img {
+.guide-image {
     width: 160px;
     height: auto;
     border-radius: 50%  ;
